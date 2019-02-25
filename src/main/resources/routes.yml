@@ -1,0 +1,8 @@
+- id: new_ui
+  uri: https://httpbin.org
+  predicates:
+  - Weighted=0.3
+- id: old_ui
+  uri: https://httpbin.davecheney.com
+  predicates:
+  - AlwaysTrue=
